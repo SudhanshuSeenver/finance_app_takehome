@@ -1,0 +1,46 @@
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-black);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* padding-top: 3.5rem; */
+}
+
+.logo_name {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo_name > img {
+  width: 24px;
+  height: 24px;
+}
+
+.logo_name > p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.logo_links {
+  display: flex;
+  gap: 9.5rem;
+  align-items: center;
+}
+
+.social_cont {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.icons_btn_social {
+  padding: 0;
+}
+.icon_social {
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}

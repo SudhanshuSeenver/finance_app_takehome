@@ -1,0 +1,31 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.user_img {
+  width: 51px;
+  height: 51px;
+}
+
+.user_name_from {
+  display: block;
+  /* flex-direction: column;
+    gap
+    justify-content: space-between; */
+}
+
+.user_name {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.user_from {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}

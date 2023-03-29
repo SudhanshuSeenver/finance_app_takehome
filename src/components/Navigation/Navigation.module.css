@@ -1,0 +1,29 @@
+.nav_linklist {
+  display: flex;
+  gap: 3.125rem;
+  padding: 0;
+}
+.nav_linklist_item {
+  font-weight: 500;
+  font-size: 1rem;
+  list-style-type: none;
+}
+
+.nav_linklist_item > a:link {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.nav.nav_linklist_item > a:visited {
+  color: var(--color-black);
+  text-decoration: none;
+}
+.nav_linklist_item > a:hover {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.nav_linklist_item > a:active {
+  color: var(--color-black);
+  text-decoration: none;
+}
