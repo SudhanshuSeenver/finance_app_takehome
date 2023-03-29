@@ -10,7 +10,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className={styles.footer_container}>
+    <footer className={styles.footer_container}>
       <div className={styles.logo_links}>
         <div className={styles.logo_name}>
           <img src={require("../../assets/logo.png")} alt="logo" />
@@ -35,7 +35,7 @@ function Footer() {
           <IoLogoYoutube className={styles.icon_social} />
         </Button>
       </div>
-    </div>
+    </footer>
   );
 }
 
